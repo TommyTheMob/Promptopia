@@ -8,7 +8,7 @@ Node ver: **20.11**
 
 # 🌍 Deploy link
 
-Project available here.
+Project available [here](https://promptopia-teal-three.vercel.app/).
 
 # 🎲 What available in Promptopia
 
