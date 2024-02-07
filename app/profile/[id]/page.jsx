@@ -20,7 +20,7 @@ const UserProfile = ({ params }) => {
         }
 
         if (params?.id) fetchPosts()
-    }, [params.id]);
+    }, [params?.id]);
 
     return (
         <Profile
@@ -39,4 +39,4 @@ const SuspendedUserProfile = () => {
     )
 }
 
-export default SuspendedUserProfile;
+export default UserProfile;

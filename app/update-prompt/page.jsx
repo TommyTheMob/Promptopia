@@ -76,4 +76,4 @@ const SuspendedUpdatePrompt = () => {
     )
 }
 
-export default SuspendedUpdatePrompt;
+export default UpdatePrompt;
