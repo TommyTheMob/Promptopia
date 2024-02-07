@@ -37,13 +37,13 @@ const Form = (props) => {
                     <span className='font-satoshi font-semibold text-base text-gray-700'>
                         Tag {' '}
                         <span className='font-normal'>
-                            (#product, #development, #idea)
+                            (product, development, idea)
                         </span>
                     </span>
                     <input
                         value={post.tag}
                         onChange={(e) => setPost({ ...post, tag: e.target.value })}
-                        placeholder='#tag...'
+                        placeholder='tag...'
                         required
                         className='form_input'
                     />
